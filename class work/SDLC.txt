@@ -1,0 +1,389 @@
+                              |  DAY 1 - 9 AUGUST | 
+      <Computer>:Computer is an electronic device which makes human life easier.
+	
+             <TYPES OF COMPUTER>
+      1]HARDWARE
+      2]SOFTWARE
+     
+       <Application of Computers>: Home,school,mall etc..
+     <Program>:Set of Instructions
+     <Programming>:to create or build a program
+       
+            <WWW=World Wide Web>[global server]
+     Collection webpages and websites stored in a webserver.
+     Connected to local computers through internet
+     Request and Respond==internet works
+                       request
+     personal computer--------->server
+     general computer<---------   
+                      response
+       
+     <TYPES OF INTERNET CONNECTION>
+     1.Digital Subscriber Line
+     2.Cable Internet
+     3.Fiber Optic
+     4.Satellite Internet
+     5.Wireless
+     6.Broadband Over Powerlines[BPL]
+
+
+                         | DAY 2 - 11 AUGUST |
+     <Protocols>: It is a set of rules for communicating devices.
+      
+     <TYPES OF PROTOCOLS>
+     1.HTTP/HTTPS - Hyper Text Transfer Protocol Secure
+     2.FTP- File Transfer Protocol
+     3.E-mail Protocol- POP3- Post Office Protocol
+                        SMTP-Simple Mail Transfer Protocol
+     4.UDP or TCP - User Datagram Protocol Or Transmission Control Protocol
+     
+
+     <TYPES OF SOFTWARE APPLICATION>
+     1.Application Software--e.g,Notepad,Ms word,Dev c++ etc..
+     2.System Software--e.g,Notepad,Calculator,Calender etc..
+     3.Driver Software--Audio and video driver
+     4.Middleware Software--Database,Middle Application Server
+     5.Programming Software--Dev c++,eclipse,turbp c,net beans etc..
+   
+     *OPEN CLOSED PRINCIPLE
+
+       <LAYERS OF SOFTWARE ARCHITECTURE>
+     1.Presentation Layer
+     2.Application Layer
+     3.Business Layer
+     4.Persistence Layer
+     5.Database Layer
+      
+
+        <6 PHASE IN SDLC>
+     1.Requirement Gathering
+     2.Analysis
+     3.Designing-static website-HTML,CSS
+     4.Coding/Implementation-Dynamic website,python,java etc..
+     5.Testing-Quality
+     6.Maintainence-Update
+
+
+
+                    | DAY 3 - 14 AUGUST |
+
+
+    < Programming>: programming is a method that how you get solve problems by computer.
+        
+
+                <TYPES OF PROGRAMMINNG LANGUAGES>
+      1.POP: Procedural Programming Language eg.c lang.
+      2.Functional Programming Language ex.python
+      3.OOP: Object Oriented programming language eg.Cpp
+      4.Scripting Programming Language Eg.Javascript,bash
+      5.logical Programming Language eg.Prolog 
+	
+	<Types of Programming Language>
+  1}Low level programming language: machine language or binary language 0 and 1
+      a}machine language
+      b}assembly language
+  2}High Level Programming Language : human understable language=all programming language
+       a}POP
+       b}oop
+  3}Middle Level Programming Language : c,cpp it understands both language
+
+   <Compiler> : It convers your code from high language to low level language. It works as a translator.
+             It reads your whole code at once and then give output or error
+            e.g.c,c++,java
+   <Interpreter> : It reads your code line by line and then give output or error e.g.Python
+ 
+
+  <IMPORTANT PROGRAMMING LANGUAGE>
+   
+1] Frontend Development static
+  a.HTML : hyper text markup language it defines the structure of website 
+  b.CSS : cascading style sheet it makes your website beautiful.it is a makeup of any website.
+  c.Java script: to make your website interactive
+  d.reactjs
+  e.Angular
+
+2]Backend Development Dynamic<Server side development>
+ python,java,nodejs,.net
+
+c and cpp is fundamental language.with the help of these languages u can learn other languages.
+
+
+                      | DAY 4 - 16 AUG |
+ 
+  <C programming>: C is a high level programming language
+  <Language> : To communicate with others
+  <history of c>: Denis M Ritchie 1972 bell laboratories
+  c was Standarise by ANSI(American National Standard Institute)
+  grammar
+  syntax:
+   # predifine
+   include to add something
+   <stdio.h> standard input output header file
+   main()
+   {
+    
+     }
+
+ printf()  to print something on console screen
+  
+ escape sequence:
+  \n new line
+  \t tab(4 spaces)
+
+
+
+                    | DAY 5 - 18 AUG |
+ 
+
+   Data types and variable:
+   Data types:
+   1] Primitive Data type: pre define data type = int,float,char,double
+   2]non-primitive data type: user defined data types = array,class,structure
+  
+
+   without point:interger: int = 78,38,900,-91 
+   With point: float= 67.32, -97.123456
+   it can store upto six digit.
+
+   double:-34.1234567899
+  
+   Character : char = a to z alphabet
+
+   Access specifiers:
+  
+   int= %d or %i
+   float= %f
+   double= %lf 
+   char= %c
+  
+   variables: to store any value or it is a container to store some value
+   a=50 here a is variable
+   anjali=27 anjali is variable
+
+   Rules of variables:
+
+  1] Variable should not start with the digits
+  ex; 1num is wrong way 
+      num1 is correct way
+  2] variable should not contain the white spaces
+  ex; no of books is wrong way
+      no_of_books is correct way
+  3] variable should not contain the keyword
+      keyword=reserved or predefined word
+  4] Variable must start with a-z,A-Z or _
+     ex; a=10
+         A=10
+         _a=12
+    c is Case sensitive language.
+
+
+
+                  | DAY 6 = 21 AUG |
+  
+    user input=dynamic
+    pre define= static
+    
+    scanf()= user input
+
+    task: write a program to find area of square
+                                  area of rectangle 
+
+
+
+               | DAY 7 = 23 AUG |
+
+   Operators: to perform operations between 2 operands.
+   a+b here a and b is operands and + is operator
+
+   Types of Operators
+  1] Arithmetic operators: + - * / 
+     % modulo reminder
+     ++ increament operator
+     -- decreament operator
+
+  2] Assignment Operators
+    += -= *= /= %=
+
+  3] Relational or conditional operator
+   == > < >= <= !=
+  output boolean value true of false 1 or 0
+
+  4]logical operator
+   logical AND operator : it returns true if both the statements were true : &&
+   1 1 1
+   1 0 0
+   0 1 0
+   0 0 0
+   logic OR operator : it returns true if one of the statements were true : ||
+   1 1 1
+   0 1 1
+   1 0 1
+   0 0 0
+   logical NOT operator : it reverse the result, it returns true of both the statement were false !
+   1 1 0
+   0 1 1
+   1 0 1
+   0 0 1
+
+ 5] size of operator : to find the size of datatypes = int,float,double,char
+
+
+     task write a program to swap two numbers without using third variable= user input 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+   
+
+
+      
+     
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+        
