@@ -232,6 +232,104 @@ c and cpp is fundamental language.with the help of these languages u can learn o
 
 
 
+          | DAY 8 : 25 AUG |
+
+
+[    TopCoder
+Coderbyte
+Project Euler
+CodeChef
+Exercism.io
+Codewars
+LeetCode
+   these websites are for improving coding skills. ]
+
+   conditional statements:
+ 1] if statement
+   synatax:
+     if(condition)
+    
+      {
+
+              true statement;
+
+      }
+ 
+ 2] if else statement
+   syntax:
+   if(condition)
+     { 
+        
+           true statement;
+
+     }
+  
+    else
+    {
+
+           false statement;
+
+    }
+
+3] else if statement or else if ladder;
+   syntax;
+
+    if(condition)
+   {
+     
+         statement;
+
+   }
+
+   else if(condition)
+   {
+
+          statement;
+ 
+   }
+ 
+     else if(condition)
+   {
+
+          statement;
+ 
+   }
+     else
+   {
+       statement;
+   }
+
+
+
+   
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
