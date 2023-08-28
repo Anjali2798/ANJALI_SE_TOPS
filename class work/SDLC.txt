@@ -300,6 +300,58 @@ LeetCode
    }
 
 
+             | DAY 9 = 28 AUG |
+
+ 4] nested if or nested if else: 
+     syntax;
+
+   if(condition)
+{
+
+     if(condition)
+
+   {
+ 
+         statement
+   }
+
+       else
+   {  
+          statement
+  
+   }
+}
+
+    else
+{
+       statement
+}
+
+5] Switch Case or Switch Statement
+
+
+    switch(varname)
+{
+
+        case1:
+        statement:
+        break:
+        case2:
+        statement;
+        break;
+
+
+
+
+              default:
+              statement
+
+}
+ 
+
+    
+
+
 
    
 
