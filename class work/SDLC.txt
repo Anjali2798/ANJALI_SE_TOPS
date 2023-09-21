@@ -347,6 +347,228 @@ LeetCode
               statement
 
 }
+
+ | DAY 10 = 4 SEPT|
+  Control statement:
+ 
+  Loops:loop is used to execute a statement repeatedly
+    types of loops:
+  1] for loop: sequence controlled loop
+
+  syntax:
+    for{initialization;condition;updation}
+  {
+        statement;
+  }
+  task: write a program to print the multiplication table by user input
+  ex; enter num=2
+     2*1=2
+     2*2=4
+   write a program to finnd a factorial of a number by userinput
+  
+          |DAY 11 = 13 SEPT| 
+ 
+
+ 2]nested for loop:
+
+   syntax
+     for(initialization;condition;updation)
+  {
+      for(initialization;condition;updation)
+{
+        statement;
+} 
+        statement;
+}
+
+
+
+       | DAY 11.1 = 14 SEPT|
+  
+
+ 3] while loop: entry controlled loop or conndition controlled loop (work on based given condition)
+  syntax:
+      initialization
+       while(condition)
+      {
+          statement;
+          updation;
+      }  
+ 4] do while loop: exit controlled loop
+   syntax:
+             initialization
+             do
+              { 
+                  statement;
+                   updation
+              }
+            while(condition);(khali aa loop ma j semi collom aave while ni pachad)
+ jumping statements:(subway surf game example)
+  1] break: it will break your statement
+  2]continue: it will skip your statement
+
+           |DAY 12 = 15 SEPT|
+     
+      Array: Array is an user define datatype which is used to store multiple values in a single element
+      index value sTarts from 0.
+     ex; amazon ma cart ma array no use thay jema multiple product add thay
+        taskbar: window+1;window+2;window+3; etc aa pan array thi banyu che
+
+         syntax;
+            dataype arrname[size]={elements}; 
+
+       task: reverse array ascending and descending order [ baki ]   
+      
+
+         
+           |DAY 12.1 = 20 SEPT|
+    types of array:
+   1] single dimensional array(1-D)= datatype arrname[size]
+          
+   2] multi dimensional array(2-D)= datatpe arrname[row] [col]
+     
+                  
+        Matrix:
+      1 2 6
+      7 8 9
+
+      9 2 3
+      1 2 5
+
+    
+
+         |DAY 13 = 9 SEPT|
+
+  Strings: A series of characters
+
+  anjali tops
+
+  string %s
+
+  syntax: datatype varname[size];
+          char name[20]; 20 sudhi j save karse
+
+ scanf ni jagya e gets(varname)
+     task write a program to check if the string is palindrome or not
+
+    palindrome : madam eve 121 
+
+        | day 14 = 13 spet |
+
+   function: function is a block of code that we can use again and again.
+   it provides the reusability because u can call same function as many times as u want
+   types of function:
+   1] library or inbuilt functions
+            printf,scanf,main  
+   2] User Defined Function: which is defined by user.
+          ex,greetings(),sum(),factorial()
+
+    
+   1] function declaration: we will declare the function
+   2]function calling: we will calling the function
+
+   syntax:
+
+             datatype function name() //function declaration
+       {
+ 
+                    block of code
+        }
+main()
+   {
+                  functionname(); //function calling
+}
+
+     | DAY 15 = 15 SEPT |
+
+    categories of function:
+ 1] Function without parameters and without return type ex; login() in flipkart
+ 2] Function with parameters and without return type ex; login(email,mobile) here email and mobile are parameters
+ 3] Function without parameters and with return type ex; click on chocolate menu button and it will return chocolate menu page
+ 4] Function with parameters and with return type ex;  login(email,mobile)
+            enter email=anjalisonejee@gmail.com
+          if it mail matches
+               it will return home page
+          
+         if mail not matches
+              it will return invalid email
+   syntax:
+
+       datatype funname(int a, int b)//()ma lakhyu che e parameters che //function declaration
+         {
+            block of code
+
+         }
+        main()
+         {
+            funname(10,20);//()arguments che
+         }
+       interview question: difference between parameters and arguments
+  parameters: when we write variables during function declaration is called parameters.
+  arguments:the value which we will write during function calling is called arguments. //jetla parameters lai e etla j arguments keva pade.
+  return value: it returns some value.
+
+
+           
+ recursion function:
+  recursion  is a special function that will call itself.
+a function which will call itself is called recursive function and this method is known as recursion.
+ note:
+ it works only on function with parameters.
+ it works based on given condition
+ syntax:
+     datatype funname()
+    { 
+          condition
+       {
+          statement;
+          funname();
+
+     } 
+     main()
+      {
+        funname();
+
+      }
+       
+
+
+pointers
+structure 
+union 
+
+   | DAY 16 20 SEPT|
+ 
+ Pointers:
+  ponter is used to find the memory address of any variable
+  pointer : %p
+  hexdecimal : %x
+  address : %a
+
+  *p,*q,*r
+  
+ structure and union:
+ strucutre is an user defined data type which is used to store multiple value in a single entity.
+ interview que: 
+ difference between array and strucutre:
+ array will store multiple values of single datatype in a single element but structure will store elements of multiple datatypes.
+ 
+ total size of struture is 28 bytes.
+ syntax:
+  struct structurename
+  {
+       datatype1 var1,var2,var3;
+       datatype2 var4,var5;
+  };
+  main()
+{
+    struct varname
+ }
+
+difference between structure and union:
+ size of structure 28 byters
+ size of union 20 bytes nu hovu joi e 
+
  
 
     
