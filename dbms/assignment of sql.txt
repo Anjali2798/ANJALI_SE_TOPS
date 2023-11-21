@@ -1,0 +1,255 @@
+              DATABASE ASSIGNMENT
+
+1]WHAT DO YOU UNDERSTAND BY DATABASE: Database is made up of a collection of tables that stores a specific set of 
+structured data. A table contains a collection of rows and columns. it is also a software tool that enables users to
+ manage a database easily
+
+2] WHAT IS NORMALIZATION?
+Normalization is the process of organizing data in a database. It includes creating tables and 
+establishing relationships between those tables according to rules designed both to protect the data
+ and to make the database more flexible by eliminating redundancy and inconsistent dependency.
+
+3] WHAT IS DIFFERENT BETWEEM DBMS AND RDBMS?
+In DBMS, data is stored as a file, while in RDBMS, 
+data is stored in the form of tables. DBMS supports single users, 
+whereas RDBMS supports multiple users. DBMS does not support client-server architecture
+but RDBMS does. DBMS has lower software and hardware requirements than RDBMS.
+
+4]What is trigger and how to create a Trigger in SQL?
+If someone add some data in current table, trigger helps you to find out what data is added on which time.
+create trigger [trigger_name] 
+
+[before | after]  
+
+{insert | update | delete}  
+
+on [table_name]  
+
+[for each row]  
+
+[trigger_body] 
+
+
+
+
+
+
+
+       [1]      CREATE DATABASE assingment_1
+
+CREATE TABLE student
+(
+  Rollno int PRIMARY KEY AUTO_INCREMENT,
+    Name varchar(40),
+    Branch varchar(40)
+
+)
+INSERT INTO student(Rollno,Name,Branch)VALUES("1","Jay","computer science");
+INSERT INTO student(Rollno,Name,Branch)VALUES("2","Suhani","Electronic and com");
+INSERT INTO student(RollnO,Name,Branch)VALUES("3","Kirti","Electornic and com")
+
+
+CREATE TABLE exam
+(
+
+      Rollno_fk int,
+     FOREIGN KEY(Rollno_fk)REFERENCES student(Rollno),
+
+    S_code varchar(40),
+    Marks varchar(40),
+    P_code varchar(40)
+   
+   )
+INSERT INTO exam(Rollno,S_code,Marks,P_code)VALUES("1","CS11","50","CS");
+INSERT INTO exam(Rollno,S_code,Marks,P_code)VALUES("1","CS12","40","CS");
+INSERT INTO exam(Rollno,S_code,Marks,P_code)VALUES("2","EC101","66","EC");
+INSERT INTO exam(Rollno,S_code,Marks,P_code)VALUES("2","EC102","70","EC");
+INSERT INTO exam(Rollno,S_code,Marks,P_code)VALUES("3","EC101","45","EC");
+INSERT INTO exam(Rollno,S_code,Marks,P_code)VALUES("3","EC102","50","EC");
+
+
+
+        [2]     CREATE DATABASE assignmet_2
+
+CREATE TABLE recidency_details
+(
+
+
+  FirstName varchar(40),
+    LastName varchar(40),
+    Address varchar(40),
+    city varchar(40),
+    age int
+
+
+)
+
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Mickey","Mouse","123 Fantasy way","Anaheim","73");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Bat ","Man","321 Cavern Ave","Gotham","54");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Woner","Woman","987 Truth way","Paradise","39");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Donald","Duck","555 Quack Street","Mallard","65");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Bugs","Bunny","567 Carrot Street","Rascal","58");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Wiley","Coyote","999 Acne way","Canyon","61");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Cat","Woman","234 purrfect street","Hairball","32");
+INSERT INTO recidency_details(FirstName,LastName,Address,city,age)VALUES("Tweety","Bird","543","Itotlaw","28");
+
+        [3]    CREATE DATABASE assignment_3
+CREATE TABLE employee
+(
+    employee_id int PRIMARY KEY AUTO_INCREMENT,
+    First_name varchar(40),
+    Last_name varchar(40),
+    Salary varchar(40),
+    Joining_date varchar(40),
+    Department varchar(40)
+
+)
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("1","John","Abraham
+","1000000","01-JAN-13 12.00.00 AM
+","Banking");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("2","Michael","Clarke","800000","01-JAN-13 12.00.00 AM","Insurance");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("3","Roy","Thomas","700000","01-FEB-13 12.00.00 AM","Banking");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("4","Tom","Jose","600000","01-FEB-13 12.00.00 AM","Insurance");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("5","Jerry","Pinto","650000","01-FEB-13 12.00.00 AM","Insurance");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("6","Philip","Mathew","750000","01-JAN-13 12.00.00 AM","Services");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("7","TestNamel","123","650000","01-JAN-13 12.00.00 AM","Services");
+INSERT INTO employee(employee_id,First_name,Last_name,Salary,Joining_date,Department)VALUES("8","TestName2","Lname%","600000","01-JAN-13 12.00.00 AM","Insurance");
+
+
+CREATE TABLE incentive(
+    
+ employee_ref_id_fk int,
+   FOREIGN KEY(employee_ref_id_fk)REFERENCES employee(employee_id),
+    Incentive_date varchar(40),
+
+     Incentive_amount varchar(40)
+
+
+)
+
+
+
+INSERT INTO incentive(employee_ref_id_fk,Incentive_date,Incentive_amount)VALUES("1","01-FEB-13","5000");
+INSERT INTO incentive(employee_ref_id_fk,Incentive_date,Incentive_amount)VALUES("2","01-FEB-13","3000");
+INSERT INTO incentive(employee_ref_id_fk,Incentive_date,Incentive_amount)VALUES("3","01-FEB-13","4000");
+INSERT INTO incentive(employee_ref_id_fk,Incentive_date,Incentive_amount)VALUES("1","01-JAN-13","4500");
+INSERT INTO incentive(employee_ref_id_fk,Incentive_date,Incentive_amount)VALUES("2","01-JAN-13","3500");
+
+
+    (a)  SELECT*FROM employee WHERE First_name="tom"
+    (b)  SELECT First_name,Joining_date,Salary FROM employee
+    (c)  SELECT*FROM employee ORDER BY First_name asc;
+         SELECT*FROM employee ORDER BY Salary DESC
+    (D)  SELECT*FROM employee WHERE First_name LIKE'J%'
+    (e)  SELECT*FROM employee ORDER BY Salary ASC
+    (f) SELECT*FROM incentive WHERE Incentive_amount>3000
+    (g) DELIMITER $$
+CREATE TRIGGER insert_trigger AFTER INSERT ON employee FOR EACH ROW
+BEGIN
+INSERT INTO incentive(Incentive_date,Incentive_amount)VALUES(
+new.First_name,new.Last_name,new.salary,new.Joining_date,new.Department,"Record Inserted!");
+END
+
+
+CREATE TABLE views
+(
+    
+    f_name varchar(40),
+    l_name varchar(40),
+    Salary varchar(40),
+    Joining_date varchar(40),
+    Department varchar(40),
+    date_time timestamp,
+    action_performed varchar(40)
+    
+
+
+
+)
+DELIMITER $$
+CREATE TRIGGER insert_trigger AFTER INSERT ON employee FOR EACH ROW
+BEGIN
+INSERT INTO views(f_name,l_name,Salary,Joining_date,Department,action_performed)VALUES(new.First_name,
+new.Last_name,new.Salary,new.Joining_date,new.Department,"Record Inserted!"                                                                                      );
+END
+
+        (4)   CREATE DATABASE assingment_4	
+
+
+CREATE TABLE SALESPERSON
+(
+
+       SNO int PRIMARY KEY,
+       SNAME varchar(40),
+       CITY varchar(40),
+       COMM varchar(40)
+
+)
+
+
+INSERT INTO salesperson(SNO,SNAME,CITY,COMM)VALUES("1001","Peel","London",".12");
+INSERT INTO salesperson(SNO,SNAME,CITY,COMM)VALUES("1002","Serres","San Jose",".13");
+INSERT INTO salesperson(SNO,SNAME,CITY,COMM)VALUES("1004","Motika","London",".11");
+INSERT INTO salesperson(SNO,SNAME,CITY,COMM)VALUES("1007","Rafkin","Barcelona",".15");
+INSERT INTO salesperson(SNO,SNAME,CITY,COMM)VALUES("1003","Axeirod","New York",".1");
+
+
+CREATE TABLE CUSTOMER
+(
+
+       CNM int PRIMARY KEY AUTO_INCREMENT,
+      CNAME varchar(40),
+    CITY varchar(40),
+    RATING varchar(40),
+     SNo int,
+    FOREIGN KEY(SNo)REFERENCES salesperson(SNO)
+
+)
+
+
+
+INSERT INTO customer(CNM,CNAME,CITY,RATING,SNo)VALUES("201","Hoffman","London","100","1001");
+INSERT INTO customer(CNM,CNAME,CITY,RATING,SNo)VALUES("202","Giovanne","Rome","200","1003");
+INSERT INTO customer(CNM,CNAME,CITY,RATING,SNo)VALUES("203","Liu","San Jose","300","1002");
+INSERT INTO customer(CNM,CNAME,CITY,RATING,SNo)VALUES("204","Grass","Barcelona","100","1002");
+INSERT INTO customer(CNM,CNAME,CITY,RATING,SNo)VALUES("206","Clemens","London","300","1007");
+INSERT INTO customer(CNM,CNAME,CITY,RATING,SNo)VALUES("207","Pereiara","Rome","100","1004");
+
+
+
+         (a) question has some irrelavent data whose not included in table
+         (b)SELECT SNAME,CITY,COMM FROM salesperson
+
+         (c)SELECT *
+FROM salesperson
+WHERE CITY = 'Barcelona' OR CITY = 'London';
+         (d)
+SELECT * FROM salesperson WHERE COMM BETWEEN .10 AND .12;
+
+         (e)
+SELECT * FROM Customer WHERE CITY NOT IN ('Rome');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        
