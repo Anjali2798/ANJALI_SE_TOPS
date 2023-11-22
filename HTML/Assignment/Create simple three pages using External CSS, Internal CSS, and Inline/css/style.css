@@ -1,0 +1,11 @@
+a
+{
+background-color: gray;
+color: burlywood;
+padding: 25px;
+text-align: center;
+}
+a:hover
+{
+background-color: red;
+}
