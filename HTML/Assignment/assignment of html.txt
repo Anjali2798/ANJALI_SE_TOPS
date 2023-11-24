@@ -1,0 +1,57 @@
+Define the terms: Website, Webpage, Web browser, Web server, HTML, 
+CSS
+WEBSITE= It is a collection of webpages,text,audios,videos,etc. to get the information.
+         Websites can be broadly classified into three main types: static websites, dynamic websites,
+         and e-commerce websites.
+
+WEBPAGE=It is known as a Web
+        it is a collection of websites or web pages stored in web servers
+        connected to local computers through the internet
+       These websites contain text pages, digital images, audios, videos,
+        etc.
+
+WEB BROWSER= A software application used to access information on the World Wide Web is called a Web Browser. 
+            When a user requests some information, the web browser fetches the data from a web server and then
+            displays the webpage on the user's screen.
+
+WEB SERVER= A server is where websites are stored, and it works a lot like your
+            computer's hard drive.
+            Once the request arrives, the server retrieves the website and sends
+            the correct data back to your computer.
+            One of the best features of the Internet is the ability to communicate
+            almost instantly with anyone in the world
+    
+HTML= Hyper Text Markup Language
+      It is a standard markup language for web page creation.
+      It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.
+
+CSS= Cascading Style Sheet
+    It is makeup of your website
+    it makes your website looks beautiful
+
+*In how many ways can a CSS be integrated as a web page?
+ There are 3 ways CSS can be integrated as a web page:
+   1)inline css (ek j line ma apvanu)
+   2)internal css(ek file ma)  
+   3)external css(biji file banavi ne apva nu)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
