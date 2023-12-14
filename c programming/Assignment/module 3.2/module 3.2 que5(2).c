@@ -5,29 +5,29 @@ main()
 4. How many odd numbers are there 
 5. Sum of even numbers 
 6. Sum of odd numbers WAP to print table up to given numbers*/
-        int i=1,num,odd=0,even=0;
-        float b;
-      while(i<=10)
-      {
+        int i,num,oddsum=0,evensum=0,ecount=0,ocount=0;
+        for(i=1;i<=10;i++)
+        {
+        	printf("enter number ");
+        	scanf("%d",&num);
+        	if(i%2==0)
+        	{
+        		ecount+=1;
+        		evensum=evensum+i;
+			}
+			else
+			{
+				ocount+=1;
+				oddsum=oddsum+i;
+			}
+		}
+		printf("oddcount = %d",ocount);
+		printf("\noddsum = %d",oddsum);
+		printf("\nevencount = %d",ecount);
+		printf("\nevensum = %d",evensum);
+      
       	
-      	printf("number %d = ",i);
-      	scanf("%d",&num);
-      	b=i%2;
-      	{
-      		printf("%d",i);
-      		even=even+i;
-      		b=1;
-		  }
-		  b=i%2;
-		  while(i!=0)
-		  {
-		  	printf("%d",i);
-		  	odd=odd+i;
-		  	b=0;
-		  }
-      	i++;
       	
-      	
-	  }
+	
 	
 }
