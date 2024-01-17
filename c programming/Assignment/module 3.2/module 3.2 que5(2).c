@@ -12,13 +12,13 @@ main()
         	scanf("%d",&num);
         	if(i%2==0)
         	{
-        		ecount+=1;
-        		evensum=evensum+i;
+        		ecount++;
+        		evensum=evensum+num;
 			}
 			else
 			{
-				ocount+=1;
-				oddsum=oddsum+i;
+				ocount++;
+				oddsum=oddsum+num;
 			}
 		}
 		printf("oddcount = %d",ocount);
