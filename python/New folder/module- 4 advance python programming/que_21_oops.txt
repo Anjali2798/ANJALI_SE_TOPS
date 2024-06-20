@@ -1,0 +1,14 @@
+ What are oops concepts? Is multiple inheritance supported in java 
+ oops = object oriented programming system
+
+there are mainly 7 concepts in oops
+
+1) class
+2) object
+3) inheritance
+4) encapsulation
+5) abstraction
+6) aggregation
+7) polymorphism
+
+multiple inheritance is not supported in java

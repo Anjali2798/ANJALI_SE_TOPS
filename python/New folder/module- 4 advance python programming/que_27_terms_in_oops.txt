@@ -1,0 +1,5 @@
+#  What is Instantiation in terms of OOP terminology? 
+"""
+it is creation of object or an instance of a class is Instantiation in terms of OOP terminology
+
+"""

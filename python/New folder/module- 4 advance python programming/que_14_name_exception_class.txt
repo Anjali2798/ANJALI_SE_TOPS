@@ -1,0 +1,13 @@
+ How many except statements can a try-except block have? Name Some 
+built-in exception classes:  
+
+at least one except statements can a try-except block have  
+
+
+there are some common exceptions are:
+
+-> NameError
+-> ValueError
+-> TypeError
+-> zerodivisionError
+-> fileNotFoundError

@@ -1,0 +1,2 @@
+ When is the finally block executed?  
+ when else part is executed after that finally block executed

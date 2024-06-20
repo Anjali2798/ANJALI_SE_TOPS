@@ -1,0 +1,12 @@
+ When will the else part of try-except-else be executed?  
+try:
+    n = 10
+    print(n)
+except:
+    print("something went wrong")
+else:
+    print("everything is under control")
+finally:
+    print("thank you for visit this app")
+
+when except part is not executed that time else part will be executed

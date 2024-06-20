@@ -1,0 +1,5 @@
+# f = open("my file.txt","x")
+# f = open("my file.txt","w")
+print("hi i am anjali")
+print("currenty i am learning python")
+f = open("my file.txt","r")
